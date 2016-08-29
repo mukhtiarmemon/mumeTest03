@@ -17,6 +17,6 @@ public class MyClassTest {
   @Test
   public void testMultiply() {
     MyClass tester = new MyClass();
-    assertEquals("10 x 5 must be 5000", 50, tester.multiply(10, 5));
+    assertEquals("10 x 5 must be 8000", 50, tester.multiply(10, 5));
   }
 }
